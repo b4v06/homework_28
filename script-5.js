@@ -1,5 +1,4 @@
 function daysDifference() {
-    let total;
     let years = new Date().getFullYear();
     let months = new Date().getMonth() + 1;
     let days = new Date().getDate();
@@ -22,7 +21,7 @@ function daysDifference() {
             i += 86400000;
         }
         if (count == 0) {
-            alert("Oh no! There are just weekends left!");
+            alert("Oh no! There is just weekend left!");
         } else {
             alert("We are chilling, we still have " + count + " days left");
         }
