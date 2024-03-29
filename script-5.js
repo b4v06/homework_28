@@ -1,4 +1,4 @@
-function daysDifference() {
+function workingDays() {
     let years = new Date().getFullYear();
     let months = new Date().getMonth() + 1;
     let days = new Date().getDate();
@@ -47,4 +47,4 @@ function daysDifference() {
         }
     }
 }
-daysDifference();
+workingDays();
